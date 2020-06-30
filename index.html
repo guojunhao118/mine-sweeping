@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #id-div-mine {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #id-div-mine .row  .cell {
+            float: left;
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            line-height: 50px;
+            text-align: center;
+            font-size: 0;
+        }
+        .clearfix {
+            overflow: hidden;
+        }
+        .opend {
+            font-size: 14px !important;
+        }
+        .is-mine {
+            background: red;
+        }
+        .sign {
+            background: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="btns">
+            <span>低难度</span>
+            <span>中难度</span>
+            <span>高难度</span>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
